@@ -1,0 +1,21 @@
+{
+    "name": "robertasproniu/tic-tac-toe-agent",
+    "description": "A Tic Tac Toe Game",
+    "license": "MIT",
+    "authors" : [{
+        "name": "Robert Asproniu",
+        "email": "robert.asproniu.work@gmail.com"
+    }],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8 || ^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "TicTacToeAgent\\" : "src/"
+        }
+    }
+}
